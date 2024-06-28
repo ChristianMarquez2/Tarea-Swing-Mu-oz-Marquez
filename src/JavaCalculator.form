@@ -87,7 +87,7 @@
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="raiz"/>
+          <text value="√"/>
         </properties>
       </component>
       <component id="28689" class="javax.swing.JButton" binding="btnExp">
@@ -195,7 +195,7 @@
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="/"/>
+          <text value="÷"/>
         </properties>
       </component>
       <component id="f5d37" class="javax.swing.JButton" binding="btnEquals">
