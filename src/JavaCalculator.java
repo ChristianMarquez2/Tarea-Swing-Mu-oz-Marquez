@@ -128,26 +128,26 @@ public class JavaCalculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 total2 = Double.parseDouble(textField1.getText());
-                // Corrección: Añadido el switch para manejar las operaciones
+
                 switch (operator) {
                     case "+":
-                        textField1.setText(Double.toString(total1 + total2));
+                        textField1.setText(String.format("%.2f", total1 + total2));
                         break;
                     case "-":
-                        textField1.setText(Double.toString(total1 - total2));
+                        textField1.setText(String.format("%.2f", total1 - total2));
                         break;
                     case "*":
-                        textField1.setText(Double.toString(total1 * total2));
+                        textField1.setText(String.format("%.2f", total1 * total2));
                         break;
                     case "/":
                         if (total2 != 0) {
-                            textField1.setText(Double.toString(total1 / total2));
+                            textField1.setText(String.format("%.2f", total1 / total2));
                         } else {
                             textField1.setText("Error");
                         }
                         break;
                     case "^":
-                        textField1.setText(Double.toString(Math.pow(total1, total2)));
+                        textField1.setText(String.format("%.2f", Math.pow(total1, total2)));
                         break;
                 }
                 total1 = 0;
