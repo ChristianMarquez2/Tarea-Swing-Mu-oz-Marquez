@@ -4,17 +4,17 @@ public class JavaCalculator {
 
     private JPanel JavaCalculator;
     private JTextField textField1;
-    private JButton button1;
+    private JButton raizButton;
     private JButton btnNine;
     private JButton btnFive;
     private JButton btnOne;
-    private JButton button5;
+    private JButton senButton;
     private JButton btnFour;
     private JButton btnSeven;
     private JButton btnPoint;
-    private JButton button9;
-    private JButton button10;
-    private JButton button11;
+    private JButton cosButton;
+    private JButton tanButton;
+    private JButton btnExp;
     private JButton btnEight;
     private JButton btnZero;
     private JButton btnSix;

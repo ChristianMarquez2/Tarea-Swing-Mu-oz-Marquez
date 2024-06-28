@@ -72,31 +72,31 @@
           <text value="9"/>
         </properties>
       </component>
-      <component id="1e38a" class="javax.swing.JButton" binding="button10" default-binding="true">
+      <component id="1e38a" class="javax.swing.JButton" binding="tanButton" default-binding="true">
         <constraints>
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="Button"/>
+          <text value="tan"/>
         </properties>
       </component>
-      <component id="5d808" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="5d808" class="javax.swing.JButton" binding="raizButton" default-binding="true">
         <constraints>
           <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="Button"/>
+          <text value="raiz"/>
         </properties>
       </component>
-      <component id="28689" class="javax.swing.JButton" binding="button11" default-binding="true">
+      <component id="28689" class="javax.swing.JButton" binding="btnExp">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="Button"/>
+          <text value="^"/>
         </properties>
       </component>
       <component id="a2bc9" class="javax.swing.JButton" binding="btnEight">
@@ -117,22 +117,22 @@
           <text value="0"/>
         </properties>
       </component>
-      <component id="78fa" class="javax.swing.JButton" binding="button9" default-binding="true">
+      <component id="78fa" class="javax.swing.JButton" binding="cosButton" default-binding="true">
         <constraints>
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="Button"/>
+          <text value="cos"/>
         </properties>
       </component>
-      <component id="4e1b6" class="javax.swing.JButton" binding="button5" default-binding="true">
+      <component id="4e1b6" class="javax.swing.JButton" binding="senButton" default-binding="true">
         <constraints>
           <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Tahoma" size="11" style="1"/>
-          <text value="Button"/>
+          <text value="sen"/>
         </properties>
       </component>
       <component id="d1872" class="javax.swing.JButton" binding="btnSix">
